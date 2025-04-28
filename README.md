@@ -17,31 +17,31 @@ This project is a simple AI-powered recruiter assistant that:
 
 ## How to run locally
 
-### 1. Clone the repository
+### 1. Clone the repository:
 ```bash
 git clone https://github.com/Oshintiwari/helix-agentic-recruiter.git
 
 cd helix-agentic-recruiter
 
-2. Backend Setup
+2. Backend Setup:
 
-cd backend
+```cd backend
 python -m venv venv
 
 source venv/Scripts/activate  # (Windows)
 
 pip install -r requirements.txt
 
-python app.py
+python app.py```
 
 Backend will run at: http://127.0.0.1:5000
 
-3. Frontend Setup
+3. Frontend Setup:
 
-cd frontend
+```cd frontend
 
 npm install
 
-npm start
+npm start```
 
 Frontend will run at: http://localhost:3000

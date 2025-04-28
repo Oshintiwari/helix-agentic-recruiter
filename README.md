@@ -14,6 +14,33 @@ This project is a simple AI-powered recruiter assistant that:
 - OpenAI API for AI responses
 ---
 
+## Requirements / Dependencies
+
+Make sure you have these installed **before** running:
+
+- **Python 3.8+**
+- **Node.js** (v16 or later recommended)
+- **npm** (comes with Node.js)
+- **OpenAI API key** (Set as environment variable `OPENAI_API_KEY`)
+- (Optional) **Git** installed to clone the repository easily.
+
+Backend dependencies (installed automatically by pip):
+- Flask
+- Flask-CORS
+- openai
+- sqlite3 (comes built-in with Python)
+
+Frontend dependencies (installed automatically by npm):
+- React
+- React DOM
+- TypeScript
+- Axios
+
+---
+
+> ⚡ Tip: If you encounter any issues, double-check your Python or Node versions.
+
+
 ## How to run locally
 
 ```bash

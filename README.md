@@ -12,55 +12,29 @@ This project is a simple AI-powered recruiter assistant that:
 - Backend: Flask + Python
 - Database: SQLite
 - OpenAI API for AI responses
+---
 
 ## How to run locally
 
-### 1. Clone the repository and setup
-
 ```bash
-# Clone the repository
+## 1. Clone the repository
 git clone https://github.com/Oshintiwari/helix-agentic-recruiter.git
 cd helix-agentic-recruiter
 
-# Backend Setup
+## Backend Setup
 cd backend
 python -m venv venv
 source venv/Scripts/activate  # (Windows)
-
 pip install -r requirements.txt
 python app.py
 # Backend will run at: http://127.0.0.1:5000
 
 # Open a new terminal for frontend
 
-# Frontend Setup
+## Frontend Setup
 cd ../frontend
 npm install
 npm start
 # Frontend will run at: http://localhost:3000
-
----
-
-## Requirements / Dependencies
-
-Make sure you have these installed **before** running:
-
-- **Python 3.8+**
-- **Node.js** (v16 or later recommended)
-- **npm** (comes with Node.js)
-- **OpenAI API key** (Set as environment variable `OPENAI_API_KEY`)
-- (Optional) **Git** installed to clone the repository easily.
-
-Backend dependencies (installed automatically by pip):
-- Flask
-- Flask-CORS
-- openai
-- sqlite3 (comes built-in with Python)
-
-Frontend dependencies (installed automatically by npm):
-- React
-- React DOM
-- TypeScript
-- Axios
 
 ---

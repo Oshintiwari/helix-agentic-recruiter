@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+db/database.db
+
+# OS
+.DS_Store
+
+# Environment
+.env
+venv/

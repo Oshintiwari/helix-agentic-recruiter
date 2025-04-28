@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.chat-section, .workspace-section {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-top: 0;
+  color: #d42b2b;
+}
+
+.chat-box {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #eee;
+  background: #fafafa;
+}
+
+.message {
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 6px;
+  max-width: 80%;
+}
+
+.message.user {
+  background: #cfe8ff;
+  align-self: flex-end;
+}
+
+.message.ai {
+  background: #e6e6e6;
+  align-self: flex-start;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.input-area button {
+  padding: 8px 16px;
+  border: none;
+  background: #d42b2b;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.workspace-box {
+  flex: 1;
+  border: 1px solid #eee;
+  background: #fafafa;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.sequence-step {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}

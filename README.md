@@ -1,7 +1,5 @@
 # helix-agentic-recruiter
 
-# Helix Agentic Recruiter
-
 This project is a simple AI-powered recruiter assistant that:
 
 - Lets you chat to create outreach sequences.
@@ -40,3 +38,29 @@ cd ../frontend
 npm install
 npm start
 # Frontend will run at: http://localhost:3000
+
+---
+
+## Requirements / Dependencies
+
+Make sure you have these installed **before** running:
+
+- **Python 3.8+**
+- **Node.js** (v16 or later recommended)
+- **npm** (comes with Node.js)
+- **OpenAI API key** (Set as environment variable `OPENAI_API_KEY`)
+- (Optional) **Git** installed to clone the repository easily.
+
+Backend dependencies (installed automatically by pip):
+- Flask
+- Flask-CORS
+- openai
+- sqlite3 (comes built-in with Python)
+
+Frontend dependencies (installed automatically by npm):
+- React
+- React DOM
+- TypeScript
+- Axios
+
+---

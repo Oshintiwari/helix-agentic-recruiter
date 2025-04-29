@@ -40,7 +40,6 @@ Frontend dependencies (installed automatically by npm):
 
 > ⚡ Tip: If you encounter any issues, double-check your Python or Node versions.
 
-
 ## How to run locally
 
 ```bash
